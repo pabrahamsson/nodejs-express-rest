@@ -1,0 +1,21 @@
+{
+  "name": "myapp",
+  "version": "0.0.1",
+  "description": "A small NodeJS Express Rest application",
+  "main": "app.js",
+  "scripts": {
+    "start": "set NODE_ENV=dev && node app.js",
+    "test": "mocha --exit"
+  },
+  "author": "Petter Abrahamsson",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2",
+    "healthcheck-middleware": "^1.0.1"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-http": "^3.0.0",
+    "mocha": "^4.1.0"
+  }
+}
