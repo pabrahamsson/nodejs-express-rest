@@ -3,7 +3,7 @@ const app = express()
 let counter = 1
 let healthcheck = require('healthcheck-middleware')
 let paths = [ '/', '/greeting', '/hostinfo' ]
-let port = 5000;
+let port = 8080;
 let welcome = 'This is my webservice!'
 
 app.get('/', function (req, res) {
